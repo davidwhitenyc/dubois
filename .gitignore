@@ -25,3 +25,6 @@ htmlcov/
 
 # MyPy
 .mypy_cache/
+
+# Personal notes
+TUTORIAL_GitHub_PyPI_Automation.md
