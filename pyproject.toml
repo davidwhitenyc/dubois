@@ -1,0 +1,30 @@
+[project]
+name = "dubois"
+version = "0.1.0"
+description = "Custom styles for W.E.B DuBois-inspired data visualizations"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "David White", email = "david.white@changemakerdata.nyc" }
+]
+requires-python = ">=3.13"
+dependencies = []
+keywords = ["visualization", "matplotlib", "dubois", "data-portraits"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.urls]
+Homepage = "https://github.com/davidwhitenyc/dubois"
+Repository = "https://github.com/davidwhitenyc/dubois"
+Issues = "https://github.com/davidwhitenyc/dubois/issues"
+
+[build-system]
+requires = ["uv_build>=0.8.23,<0.9.0"]
+build-backend = "uv_build"
