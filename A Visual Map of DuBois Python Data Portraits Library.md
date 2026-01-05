@@ -2,7 +2,8 @@
 
 ## Current Project Structure
 
-dubois/                                    # Root directory
+```
+dubois/
 │
 ├── README.md                              # ✅ PyPI landing page with description, installation, usage
 │                                          # Includes features, quick start, palette examples
@@ -53,6 +54,7 @@ dubois/                                    # Root directory
         └── dubois.mplstyle                # ✅ Matplotlib style file
                                            # Defines: fonts, colors, grid, axes styling
                                            # Applied via dubois.use_style()
+```
 
 ---
 
