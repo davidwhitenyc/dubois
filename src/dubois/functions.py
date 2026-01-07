@@ -16,8 +16,8 @@ def dubois_table(df, title=None, subtitle=None, source_note=None, **kwargs):
     """
     n_cols = len(df.columns)
     equal_col_width = pct(100 / n_cols)
-    column_names_dict = {col: col.replace('_', ' ').title() for col in df.columns}
     table_width = df.shape[1] * 135
+    column_names_dict = {col: col.replace('_', ' ').title() for col in df.columns}
 
     formatted_table = (
         GT(df, **kwargs)
