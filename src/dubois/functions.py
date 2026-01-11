@@ -1,6 +1,6 @@
 from great_tables import GT, style, google_font, loc, px, pct
 
-def dubois_table(df, title=None, subtitle=None, source_note=None, **kwargs):
+def dubois_table(df, *, title=None, subtitle=None, source_note=None, **kwargs):
     """
     Return a W.E.B. Du Bois-inspired formatted display table from a pandas DataFrame.
 
